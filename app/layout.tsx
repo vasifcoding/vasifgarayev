@@ -18,15 +18,18 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'vasif os // developer portfolio',
-  description: 'cyber-engineering os — portfolio of vasif garayev, computer engineering student',
+  title: 'vasif garayev | software engineer',
+description: "computer engineering student at kirsehir ahi evran university. full-stack developer specializing in next.js, react, and ai integration.",
+  keywords: ["vasif garayev", "vasif", "garayev", "software engineer", "computer engineering", "kırşehir", "portfolio"],
+  authors: [{ name: "vasif garayev" }],
+  creator: "vasif garayev",
   icons: {
     icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.jpg', media: '(prefers-color-scheme: light)' },
+      { url: '/favicon.jpg', media: '(prefers-color-scheme: dark)' },
+      { url: '/favicon.jpg' },
     ],
-    apple: '/apple-icon.png',
+    apple: '/favicon.jpg',
   },
 }
 

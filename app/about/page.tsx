@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { useState, useRef, useEffect } from "react"
+import { useState, useEffect } from "react"
 
 const skills = [
   { name: "next.js", level: 85, category: "frontend" },
